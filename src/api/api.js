@@ -9,7 +9,7 @@ export const fetchCountries = async () => {
         return res.data;
     }
     catch(e){
-         console.error("API fetch failed:", e);
+         console.error("Error fetching data: ", e);
         return []; 
     }
 }
